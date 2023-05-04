@@ -12,16 +12,8 @@ import agora.folium.ws.type.DocumentoProtocollato;
 import agora.folium.ws.type.MittenteDestinatario;
 import org.json.simple.JSONObject;
 
-public class TestProtocollazione {
+public class ServiceWrapperProtocollo {
 	
-	public static void main(String[] args) {
-		JSONObject jo_input = new JSONObject();
-		jo_input.put("submissionid", "235413246");
-		
-		JSONObject jo_output = new JSONObject();
-		
-	}
-
 	public JSONObject handleRequest(JSONObject input) {
 
 		String ret_val = new String("-");

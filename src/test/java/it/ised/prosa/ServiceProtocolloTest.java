@@ -3,7 +3,7 @@ package it.ised.prosa;
 import org.json.simple.JSONObject;
 import org.junit.Test;
 
-public class TestProtocollazioneTest {
+public class ServiceProtocolloTest {
 	
   @SuppressWarnings("unchecked")
 	@Test
@@ -13,7 +13,7 @@ public class TestProtocollazioneTest {
 		
 		JSONObject jo_output = new JSONObject();
 		
-		TestProtocollazione ociFunction = new TestProtocollazione();
+		ServiceWrapperProtocollo ociFunction = new ServiceWrapperProtocollo();
 		jo_output = ociFunction.handleRequest(jo_input);
 		
 		System.out.println(jo_output.toJSONString());
